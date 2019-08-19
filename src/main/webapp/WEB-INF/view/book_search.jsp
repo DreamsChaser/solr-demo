@@ -6,7 +6,7 @@
 <html>
 <head>
     <title>solr搜索</title>
-    <script type="text/javascript" src="${ctx}/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="${ctx}/jquery-1.9.1.min.js"></script>
 </head>
 
 <body>
@@ -25,9 +25,6 @@
 </body>
 </html>
 <script>
-    $(document).ready(function(){
-
-    });
     function query() {
         var value = $("#query").val();
         $.ajax({
